@@ -65,7 +65,7 @@ body {
 .todo_list_title {
 	text-align: center;
 	font-weight: 700;
-	font-size: 1.4rem;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	color: white;
 	margin: 0;
@@ -84,7 +84,8 @@ body {
 	text-align: center;
 	font-size: 0.9em;
 	color: $dark;
-	font-weight: 100;
+    font-weight: 100;
+    font-size: 1.4em;
 }
 
 .index_row {
@@ -109,12 +110,13 @@ body {
 		}
 		.todo_item {
 			width: 80%;
-			float: left;
+            float: left;
 			p {
 				margin: 0;
 				padding: 1em;
 				color: $dark;
-				font-weight: 100;
+                font-weight: 100;
+                font-size: 1.2em; 
 			}
 		}
 		.trash {
@@ -125,7 +127,8 @@ body {
 			padding: 1em 0;
 		}
 		i {
-			color: white;
+            color: black;
+            font-size: 1.5em;
 			transition: all .4s ease-in-out;
 			&:hover {
 				color: $dark;
